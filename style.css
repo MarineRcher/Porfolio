@@ -47,6 +47,20 @@ body {
     
 }
 
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited, a:focus {
+    color: #001AFF;
+}
+
+a:hover{
+    color: orange;
+}
+
+
+
 
 
 
