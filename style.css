@@ -1,4 +1,7 @@
-
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .acceuil {
     background: rgb(198,215,235);
@@ -7,5 +10,43 @@
     height: 100vh;
     font-family: 'Roboto Mono', monospace;
     color: #001AFF;
-};
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    margin: 3vh;
+    font-size: 1.8rem;
+}
+
+.welcome{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 8vh;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 16vh;
+    padding-left: 5vh;
+}
+
+.boite {
+
+    border: 0.1rem;
+    border-radius: 40px;
+    height: 100 px;
+    width: 100 px;
+    padding: 8vh;
+    margin: 2vh;
+    background-color: #FFFFFF;
+    opacity: 0.60 ;
+    font-size: 2rem;
+    
+}
+
+
+
 
