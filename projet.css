@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #264653 ;
+    font-family: 'Roboto Mono', monospace;
+}
+@supports (display: flex) {
+    @media screen and (min-width: 900px) {
+      article {
+        display: flex;
+      }
+    }
+  }
+
+.title{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.P {
+    color: white;
+    font-size: 4rem;
+    padding-left: 9rem;
+    transform: rotate(-0.08turn);
+}
+.R{
+    color: white;
+    font-size: 4rem;
+    transform: rotate(-0.05turn);
+    padding-left: 9rem;
+}
+
+.O{
+    color: white;
+    font-size: 4rem;
+    transform: rotate(0.02turn);
+    padding-left: 9rem;
+}
+
+.J{
+    color: white;
+    font-size: 4rem;
+    transform: rotate(0.06turn);
+    padding-left: 9rem;
+}
+
+.E{
+    color: white;
+    font-size: 4rem;
+    padding-left: 20rem;
+    transform: rotate(-0.06turn);
+    padding-left: 9rem;
+}
+
+.T{
+    color: white;
+    font-size: 4rem;
+    transform: rotate(0.07turn);
+    padding-left: 9rem;
+}
+
+.S{
+    color: white;
+    font-size: 4rem;
+    transform: rotate(0.05turn);
+    padding-left: 9rem;
+}
+
+.projet1 {
+
+}
+
+.titleProjet1{
+    
+}
