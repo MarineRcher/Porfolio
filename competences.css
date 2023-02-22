@@ -1,0 +1,52 @@
+body {
+    background-color: #264653 ;
+}
+
+.title1{
+    color: white;
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+.boxCompetences {
+    display:flex;
+    flex-direction: row;
+}
+
+.competences {
+   
+    border: 1px solid ;
+    border: 0.1rem;
+    border-radius: 40px;
+    height: 40vh;
+    min-width: 20vh ;
+    padding: 8vh;
+    margin: 2vh;
+    background-color: #F4A261;
+    font-size: 2rem;
+
+}
+
+.title2{
+    color: white;
+    font-size: 3rem;
+    margin-left: 2rem;
+    min-width: 100%;
+}
+
+.boxExperiences{
+    display: flex;
+    flex-direction: row;
+}
+
+.experiences {
+    border: 1px solid ;
+    border: 0.1rem;
+    border-radius: 40px;
+    height: 40vh;
+    min-width: 20vh ;
+    padding: 8vh;
+    margin: 2vh;
+    background-color: #F4A261;
+    font-size: 2rem;
+}
